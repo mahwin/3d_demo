@@ -3,19 +3,13 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import Stats from 'stats.js';
 import mapInfo from "./mapInfo";
-import wallInfo from './wallInfo';
+import wallInfo from './container_wall.json'
+// import wallInfo from './wallInfo';
 import GUI from 'lil-gui';
 
-// const folder = gui.addFolder('배경 색상');
-// folder.addColor('color', '#e2e2e2');
-
-// const wall = gui.addFolder('벽');
-// wall.addColor('color', '#e2e2e2');
-
-const devices = ['1U','2U', '4U','8U','10U'];
+const devices = ['1U','2U','4U','8U','10U'];
 const U_SIZES = [1,1,1,1,2,2,4,8,10];
-// const U_SIZES = [1,1,1,1,1,1,1,1,2,2,2,4,4,8,10];
-// const U_SIZES = [1];
+
 
 const settings = {
     backgroundColor: 0xe2e2e2,
@@ -42,7 +36,7 @@ const camera  = {
 const dom = document.querySelector("#app");
 
 const FMS_TYPE = {
-    RACK: 'real_rack', 
+    RACK: 'rack', 
     TILE: 'tile',
     WALL: 'wall',
     CRAC: 'crac',
@@ -75,7 +69,7 @@ class App {
         this.stats = new Stats();
         document.body.appendChild(this.stats.dom);
        
-        // this._setupHelper();
+        this._setupHelper();
     
         // model 그리기
         await this._loadModels();
@@ -133,7 +127,8 @@ class App {
     }
     
     _setupHelper() {
-        const axesHelper = new THREE.AxesHelper(100);
+        const axesHelper = new THREE.AxesHelper(10);
+        const gridHelper = new THREE.GridHelper(5, 5);
         this._scene.add(axesHelper);
     }
     // 테마 토글할 때 색상 두개
@@ -150,7 +145,7 @@ class App {
         // load 데이터
         const loader = new GLTFLoader();
 
-        const names = ['rack','real_rack', 'tile', 'wall', 'crac' ,'ups', 'battery', ...devices, 'rack_all_dark','rack_all_gray'];
+        const names = ['rack', 'tile', 'wall', 'crac' ,'ups', 'battery', ...devices];
         
         const threeModels = await Promise.all(
             names.map((name) => {
@@ -164,7 +159,7 @@ class App {
     }
 
     _addModel(){
-        this.mapRender();
+        // this.mapRender();
         this.wallRender();
         this.addGUI();
         // this.cdevice();
@@ -251,7 +246,6 @@ class App {
         });
 
         
-
         const cameraSettings = {
           near: this._camera.near,
         }
