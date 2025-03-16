@@ -20,7 +20,7 @@ const wall = {
 
 const camera = {
   position: {
-    x: -2,
+    x: 10,
     y: 10,
     z: 0,
   },
@@ -66,7 +66,7 @@ class App {
     this.stats = new Stats();
     document.body.appendChild(this.stats.dom);
 
-    this._setupHelper();
+    // this._setupHelper();
 
     // model 그리기
     await this._loadModels();
@@ -149,6 +149,7 @@ class App {
       "crac",
       "ups",
       "battery",
+      "unplaceableTile",
       ...devices,
     ];
 
@@ -176,7 +177,7 @@ class App {
     let light = {
       color: 0xffffff,
       distance: 20,
-      intensity: 1.5,
+      intensity: 30,
       positionDistance: 6,
       helperVisible: true,
     };
@@ -447,11 +448,12 @@ class App {
       const z = startZ + col * tileSize;
       const x = startX - row * tileSize;
 
-      const tile = tileOrigin.clone();
+      const tile =
+        this._modelMap[cellInfo.placable ? "tile" : "unplaceableTile"].clone();
       tile.position.set(x, 0, z);
       this._scene.add(tile);
 
-      if (cellId !== originId) continue;
+      if (cellId !== originId || cellInfo.placable) continue;
 
       const { fmsType, direction } = cellInfo;
 
@@ -459,6 +461,7 @@ class App {
         this._modelMap[fmsType === "rack" ? "real_rack" : fmsType].clone();
       object.rotation.y = this.directionToRotation(direction);
       object.position.set(x, 0, z);
+
       if (fmsType === "rack") {
         this.mountDevice(object, renderRackHeight);
         object.scale.set(1.2, 1, 1.25);

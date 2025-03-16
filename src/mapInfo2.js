@@ -4,9 +4,11 @@ export default {
   cellInfos: [
     {
       cellId: "A1",
+      placable: true,
     },
     {
       cellId: "A2",
+      placable: true,
     },
     {
       cellId: "A3",
@@ -18,10 +20,12 @@ export default {
     },
     {
       cellId: "A4",
+      placable: true,
       originId: "A3",
     },
     {
       cellId: "A5",
+      placable: true,
     },
     {
       cellId: "A6",
@@ -33,10 +37,12 @@ export default {
     },
     {
       cellId: "A7",
+      placable: true,
       originId: "A6",
     },
     {
       cellId: "A8",
+      placable: true,
     },
     {
       cellId: "A9",
@@ -48,175 +54,232 @@ export default {
     },
     {
       cellId: "A10",
+      placable: true,
       originId: "A9",
     },
     {
       cellId: "A11",
+      placable: true,
     },
     {
       cellId: "A12",
+      placable: true,
     },
     {
       cellId: "A13",
+      placable: true,
     },
     {
       cellId: "A14",
+      placable: true,
     },
     {
       cellId: "A15",
+      placable: true,
     },
     {
       cellId: "A16",
+      placable: true,
     },
     {
       cellId: "A17",
+      placable: true,
     },
     {
       cellId: "A18",
+      placable: true,
     },
     {
       cellId: "A19",
+      placable: true,
     },
     {
       cellId: "A20",
+      placable: true,
     },
     {
       cellId: "A21",
+      placable: true,
     },
     {
       cellId: "B1",
+      placable: true,
     },
     {
       cellId: "B2",
+      placable: true,
     },
     {
       cellId: "B3",
+      placable: true,
     },
     {
       cellId: "B4",
+      placable: true,
     },
     {
       cellId: "B5",
+      placable: true,
     },
     {
       cellId: "B6",
+      placable: true,
     },
     {
       cellId: "B7",
+      placable: true,
     },
     {
       cellId: "B8",
+      placable: true,
     },
     {
       cellId: "B9",
+      placable: true,
     },
     {
       cellId: "B10",
+      placable: true,
     },
     {
       cellId: "B11",
+      placable: true,
     },
     {
       cellId: "B12",
+      placable: true,
     },
     {
       cellId: "B13",
+      placable: true,
     },
     {
       cellId: "B14",
+      placable: true,
     },
     {
       cellId: "B15",
+      placable: true,
     },
     {
       cellId: "B16",
+      placable: true,
     },
     {
       cellId: "B17",
+      placable: true,
     },
     {
       cellId: "B18",
+      placable: true,
     },
     {
       cellId: "B19",
+      placable: true,
     },
     {
       cellId: "B20",
+      placable: true,
     },
     {
       cellId: "B21",
+      placable: true,
     },
     {
       cellId: "C1",
+      placable: true,
     },
     {
       cellId: "C2",
+      placable: true,
     },
     {
       cellId: "C3",
+      placable: true,
     },
     {
       cellId: "C4",
+      placable: true,
     },
     {
       cellId: "C5",
+      placable: true,
     },
     {
       cellId: "C6",
+      placable: true,
     },
     {
       cellId: "C7",
+      placable: true,
     },
     {
       cellId: "C8",
+      placable: true,
     },
     {
       cellId: "C9",
+      placable: true,
     },
     {
       cellId: "C10",
+      placable: true,
     },
     {
       cellId: "C11",
+      placable: true,
     },
     {
       cellId: "C12",
+      placable: true,
     },
     {
       cellId: "C13",
+      placable: true,
     },
     {
       cellId: "C14",
+      placable: true,
     },
     {
       cellId: "C15",
+      placable: true,
     },
     {
       cellId: "C16",
+      placable: true,
     },
     {
       cellId: "C17",
+      placable: true,
     },
     {
       cellId: "C18",
+      placable: true,
     },
     {
       cellId: "C19",
+      placable: true,
     },
     {
       cellId: "C20",
+      placable: true,
     },
     {
       cellId: "C21",
+      placable: true,
     },
     {
       cellId: "D1",
+      placable: true,
     },
     {
       cellId: "D2",
+      placable: true,
     },
     {
       cellId: "D3",
+      placable: true,
       originId: "D4",
     },
     {
@@ -229,15 +292,19 @@ export default {
     },
     {
       cellId: "D5",
+      placable: true,
     },
     {
       cellId: "D6",
+      placable: false,
     },
     {
       cellId: "D7",
+      placable: false,
     },
     {
       cellId: "D8",
+      placable: true,
       originId: "D9",
     },
     {
@@ -250,18 +317,23 @@ export default {
     },
     {
       cellId: "D10",
+      placable: true,
     },
     {
       cellId: "D11",
+      placable: true,
     },
     {
       cellId: "D12",
+      placable: true,
     },
     {
       cellId: "D13",
+      placable: true,
     },
     {
       cellId: "D14",
+      placable: true,
     },
     {
       cellId: "D15",
@@ -305,19 +377,24 @@ export default {
     },
     {
       cellId: "D20",
+      placable: true,
       originId: "D19",
     },
     {
       cellId: "D21",
+      placable: true,
     },
     {
       cellId: "E1",
+      placable: true,
     },
     {
       cellId: "E2",
+      placable: true,
     },
     {
       cellId: "E3",
+      placable: true,
       originId: "E4",
     },
     {
@@ -330,15 +407,19 @@ export default {
     },
     {
       cellId: "E5",
+      placable: true,
     },
     {
       cellId: "E6",
+      placable: false,
     },
     {
       cellId: "E7",
+      placable: false,
     },
     {
       cellId: "E8",
+      placable: true,
       originId: "E9",
     },
     {
@@ -351,48 +432,63 @@ export default {
     },
     {
       cellId: "E10",
+      placable: true,
     },
     {
       cellId: "E11",
+      placable: true,
     },
     {
       cellId: "E12",
+      placable: true,
     },
     {
       cellId: "E13",
+      placable: true,
     },
     {
       cellId: "E14",
+      placable: true,
     },
     {
       cellId: "E15",
+      placable: false,
     },
     {
       cellId: "E16",
+      placable: false,
     },
     {
       cellId: "E17",
+      placable: false,
     },
     {
       cellId: "E18",
+      placable: false,
     },
     {
       cellId: "E19",
+      placable: false,
     },
     {
       cellId: "E20",
+      placable: true,
     },
     {
       cellId: "E21",
+      placable: true,
     },
     {
       cellId: "F1",
+      placable: true,
     },
     {
       cellId: "F2",
+      placable: true,
     },
     {
       cellId: "F3",
+      placable: true,
       originId: "F4",
     },
     {
@@ -405,15 +501,19 @@ export default {
     },
     {
       cellId: "F5",
+      placable: true,
     },
     {
       cellId: "F6",
+      placable: false,
     },
     {
       cellId: "F7",
+      placable: false,
     },
     {
       cellId: "F8",
+      placable: true,
       originId: "F9",
     },
     {
@@ -426,48 +526,63 @@ export default {
     },
     {
       cellId: "F10",
+      placable: true,
     },
     {
       cellId: "F11",
+      placable: true,
     },
     {
       cellId: "F12",
+      placable: true,
     },
     {
       cellId: "F13",
+      placable: true,
     },
     {
       cellId: "F14",
+      placable: true,
     },
     {
       cellId: "F15",
+      placable: false,
     },
     {
       cellId: "F16",
+      placable: false,
     },
     {
       cellId: "F17",
+      placable: false,
     },
     {
       cellId: "F18",
+      placable: false,
     },
     {
       cellId: "F19",
+      placable: false,
     },
     {
       cellId: "F20",
+      placable: true,
     },
     {
       cellId: "F21",
+      placable: true,
     },
     {
       cellId: "G1",
+      placable: true,
     },
     {
       cellId: "G2",
+      placable: true,
     },
     {
       cellId: "G3",
+      placable: true,
       originId: "G4",
     },
     {
@@ -480,15 +595,19 @@ export default {
     },
     {
       cellId: "G5",
+      placable: true,
     },
     {
       cellId: "G6",
+      placable: false,
     },
     {
       cellId: "G7",
+      placable: false,
     },
     {
       cellId: "G8",
+      placable: true,
       originId: "G9",
     },
     {
@@ -501,18 +620,23 @@ export default {
     },
     {
       cellId: "G10",
+      placable: true,
     },
     {
       cellId: "G11",
+      placable: true,
     },
     {
       cellId: "G12",
+      placable: true,
     },
     {
       cellId: "G13",
+      placable: true,
     },
     {
       cellId: "G14",
+      placable: true,
     },
     {
       cellId: "G15",
@@ -556,18 +680,23 @@ export default {
     },
     {
       cellId: "G20",
+      placable: true,
     },
     {
       cellId: "G21",
+      placable: true,
     },
     {
       cellId: "H1",
+      placable: true,
     },
     {
       cellId: "H2",
+      placable: true,
     },
     {
       cellId: "H3",
+      placable: true,
       originId: "H4",
     },
     {
@@ -580,15 +709,19 @@ export default {
     },
     {
       cellId: "H5",
+      placable: true,
     },
     {
       cellId: "H6",
+      placable: false,
     },
     {
       cellId: "H7",
+      placable: false,
     },
     {
       cellId: "H8",
+      placable: true,
       originId: "H9",
     },
     {
@@ -601,53 +734,68 @@ export default {
     },
     {
       cellId: "H10",
+      placable: true,
     },
     {
       cellId: "H11",
+      placable: true,
     },
     {
       cellId: "H12",
+      placable: true,
     },
     {
       cellId: "H13",
+      placable: true,
     },
     {
       cellId: "H14",
+      placable: true,
     },
     {
       cellId: "H15",
+      placable: true,
       originId: "G15",
     },
     {
       cellId: "H16",
+      placable: true,
       originId: "G16",
     },
     {
       cellId: "H17",
+      placable: true,
       originId: "G17",
     },
     {
       cellId: "H18",
+      placable: true,
       originId: "G18",
     },
     {
       cellId: "H19",
+      placable: true,
       originId: "G19",
     },
     {
       cellId: "H20",
+      placable: true,
     },
     {
       cellId: "H21",
+      placable: true,
     },
     {
       cellId: "I1",
+      placable: true,
     },
     {
       cellId: "I2",
+      placable: true,
     },
     {
       cellId: "I3",
+      placable: true,
       originId: "I4",
     },
     {
@@ -660,15 +808,19 @@ export default {
     },
     {
       cellId: "I5",
+      placable: true,
     },
     {
       cellId: "I6",
+      placable: false,
     },
     {
       cellId: "I7",
+      placable: false,
     },
     {
       cellId: "I8",
+      placable: true,
       originId: "I9",
     },
     {
@@ -681,48 +833,63 @@ export default {
     },
     {
       cellId: "I10",
+      placable: true,
     },
     {
       cellId: "I11",
+      placable: true,
     },
     {
       cellId: "I12",
+      placable: true,
     },
     {
       cellId: "I13",
+      placable: true,
     },
     {
       cellId: "I14",
+      placable: true,
     },
     {
       cellId: "I15",
+      placable: true,
     },
     {
       cellId: "I16",
+      placable: true,
     },
     {
       cellId: "I17",
+      placable: true,
     },
     {
       cellId: "I18",
+      placable: true,
     },
     {
       cellId: "I19",
+      placable: true,
     },
     {
       cellId: "I20",
+      placable: true,
     },
     {
       cellId: "I21",
+      placable: true,
     },
     {
       cellId: "J1",
+      placable: true,
     },
     {
       cellId: "J2",
+      placable: true,
     },
     {
       cellId: "J3",
+      placable: true,
       originId: "J4",
     },
     {
@@ -735,15 +902,19 @@ export default {
     },
     {
       cellId: "J5",
+      placable: true,
     },
     {
       cellId: "J6",
+      placable: false,
     },
     {
       cellId: "J7",
+      placable: false,
     },
     {
       cellId: "J8",
+      placable: true,
       originId: "J9",
     },
     {
@@ -756,48 +927,63 @@ export default {
     },
     {
       cellId: "J10",
+      placable: true,
     },
     {
       cellId: "J11",
+      placable: true,
     },
     {
       cellId: "J12",
+      placable: true,
     },
     {
       cellId: "J13",
+      placable: true,
     },
     {
       cellId: "J14",
+      placable: true,
     },
     {
       cellId: "J15",
+      placable: true,
     },
     {
       cellId: "J16",
+      placable: true,
     },
     {
       cellId: "J17",
+      placable: true,
     },
     {
       cellId: "J18",
+      placable: true,
     },
     {
       cellId: "J19",
+      placable: true,
     },
     {
       cellId: "J20",
+      placable: true,
     },
     {
       cellId: "J21",
+      placable: true,
     },
     {
       cellId: "K1",
+      placable: true,
     },
     {
       cellId: "K2",
+      placable: true,
     },
     {
       cellId: "K3",
+      placable: true,
       originId: "K4",
     },
     {
@@ -810,15 +996,19 @@ export default {
     },
     {
       cellId: "K5",
+      placable: true,
     },
     {
       cellId: "K6",
+      placable: false,
     },
     {
       cellId: "K7",
+      placable: false,
     },
     {
       cellId: "K8",
+      placable: true,
       originId: "K9",
     },
     {
@@ -831,48 +1021,63 @@ export default {
     },
     {
       cellId: "K10",
+      placable: true,
     },
     {
       cellId: "K11",
+      placable: true,
     },
     {
       cellId: "K12",
+      placable: true,
     },
     {
       cellId: "K13",
+      placable: true,
     },
     {
       cellId: "K14",
+      placable: true,
     },
     {
       cellId: "K15",
+      placable: true,
     },
     {
       cellId: "K16",
+      placable: true,
     },
     {
       cellId: "K17",
+      placable: true,
     },
     {
       cellId: "K18",
+      placable: true,
     },
     {
       cellId: "K19",
+      placable: true,
     },
     {
       cellId: "K20",
+      placable: true,
     },
     {
       cellId: "K21",
+      placable: true,
     },
     {
       cellId: "L1",
+      placable: true,
     },
     {
       cellId: "L2",
+      placable: true,
     },
     {
       cellId: "L3",
+      placable: true,
       originId: "L4",
     },
     {
@@ -885,15 +1090,19 @@ export default {
     },
     {
       cellId: "L5",
+      placable: true,
     },
     {
       cellId: "L6",
+      placable: false,
     },
     {
       cellId: "L7",
+      placable: false,
     },
     {
       cellId: "L8",
+      placable: true,
       originId: "L9",
     },
     {
@@ -906,48 +1115,63 @@ export default {
     },
     {
       cellId: "L10",
+      placable: true,
     },
     {
       cellId: "L11",
+      placable: true,
     },
     {
       cellId: "L12",
+      placable: true,
     },
     {
       cellId: "L13",
+      placable: true,
     },
     {
       cellId: "L14",
+      placable: true,
     },
     {
       cellId: "L15",
+      placable: true,
     },
     {
       cellId: "L16",
+      placable: true,
     },
     {
       cellId: "L17",
+      placable: true,
     },
     {
       cellId: "L18",
+      placable: true,
     },
     {
       cellId: "L19",
+      placable: true,
     },
     {
       cellId: "L20",
+      placable: true,
     },
     {
       cellId: "L21",
+      placable: true,
     },
     {
       cellId: "M1",
+      placable: true,
     },
     {
       cellId: "M2",
+      placable: true,
     },
     {
       cellId: "M3",
+      placable: true,
       originId: "M4",
     },
     {
@@ -960,15 +1184,19 @@ export default {
     },
     {
       cellId: "M5",
+      placable: true,
     },
     {
       cellId: "M6",
+      placable: false,
     },
     {
       cellId: "M7",
+      placable: false,
     },
     {
       cellId: "M8",
+      placable: true,
       originId: "M9",
     },
     {
@@ -981,171 +1209,227 @@ export default {
     },
     {
       cellId: "M10",
+      placable: true,
     },
     {
       cellId: "M11",
+      placable: true,
     },
     {
       cellId: "M12",
+      placable: true,
     },
     {
       cellId: "M13",
+      placable: true,
     },
     {
       cellId: "M14",
+      placable: true,
     },
     {
       cellId: "M15",
+      placable: true,
     },
     {
       cellId: "M16",
+      placable: true,
     },
     {
       cellId: "M17",
+      placable: true,
     },
     {
       cellId: "M18",
+      placable: true,
     },
     {
       cellId: "M19",
+      placable: true,
     },
     {
       cellId: "M20",
+      placable: true,
     },
     {
       cellId: "M21",
+      placable: true,
     },
     {
       cellId: "N1",
+      placable: true,
     },
     {
       cellId: "N2",
+      placable: true,
     },
     {
       cellId: "N3",
+      placable: true,
     },
     {
       cellId: "N4",
+      placable: true,
     },
     {
       cellId: "N5",
+      placable: true,
     },
     {
       cellId: "N6",
+      placable: true,
     },
     {
       cellId: "N7",
+      placable: true,
     },
     {
       cellId: "N8",
+      placable: true,
     },
     {
       cellId: "N9",
+      placable: true,
     },
     {
       cellId: "N10",
+      placable: true,
     },
     {
       cellId: "N11",
+      placable: true,
     },
     {
       cellId: "N12",
+      placable: true,
     },
     {
       cellId: "N13",
+      placable: true,
     },
     {
       cellId: "N14",
+      placable: true,
     },
     {
       cellId: "N15",
+      placable: true,
     },
     {
       cellId: "N16",
+      placable: true,
     },
     {
       cellId: "N17",
+      placable: true,
     },
     {
       cellId: "N18",
+      placable: true,
     },
     {
       cellId: "N19",
+      placable: true,
     },
     {
       cellId: "N20",
+      placable: true,
     },
     {
       cellId: "N21",
+      placable: true,
     },
     {
       cellId: "O1",
+      placable: true,
     },
     {
       cellId: "O2",
+      placable: true,
     },
     {
       cellId: "O3",
+      placable: true,
     },
     {
       cellId: "O4",
+      placable: true,
     },
     {
       cellId: "O5",
+      placable: true,
     },
     {
       cellId: "O6",
+      placable: true,
     },
     {
       cellId: "O7",
+      placable: true,
     },
     {
       cellId: "O8",
+      placable: true,
     },
     {
       cellId: "O9",
+      placable: true,
     },
     {
       cellId: "O10",
+      placable: true,
     },
     {
       cellId: "O11",
+      placable: true,
     },
     {
       cellId: "O12",
+      placable: true,
     },
     {
       cellId: "O13",
+      placable: true,
     },
     {
       cellId: "O14",
+      placable: true,
     },
     {
       cellId: "O15",
+      placable: true,
     },
     {
       cellId: "O16",
+      placable: true,
     },
     {
       cellId: "O17",
+      placable: true,
     },
     {
       cellId: "O18",
+      placable: true,
     },
     {
       cellId: "O19",
+      placable: true,
     },
     {
       cellId: "O20",
+      placable: true,
     },
     {
       cellId: "O21",
+      placable: true,
     },
     {
       cellId: "P1",
+      placable: true,
     },
     {
       cellId: "P2",
+      placable: true,
       originId: "P3",
     },
     {
@@ -1158,9 +1442,11 @@ export default {
     },
     {
       cellId: "P4",
+      placable: true,
     },
     {
       cellId: "P5",
+      placable: true,
       originId: "P6",
     },
     {
@@ -1173,9 +1459,11 @@ export default {
     },
     {
       cellId: "P7",
+      placable: true,
     },
     {
       cellId: "P8",
+      placable: true,
       originId: "P9",
     },
     {
@@ -1188,39 +1476,51 @@ export default {
     },
     {
       cellId: "P10",
+      placable: true,
     },
     {
       cellId: "P11",
+      placable: true,
     },
     {
       cellId: "P12",
+      placable: true,
     },
     {
       cellId: "P13",
+      placable: true,
     },
     {
       cellId: "P14",
+      placable: true,
     },
     {
       cellId: "P15",
+      placable: true,
     },
     {
       cellId: "P16",
+      placable: true,
     },
     {
       cellId: "P17",
+      placable: true,
     },
     {
       cellId: "P18",
+      placable: true,
     },
     {
       cellId: "P19",
+      placable: true,
     },
     {
       cellId: "P20",
+      placable: true,
     },
     {
       cellId: "P21",
+      placable: true,
     },
   ],
 };

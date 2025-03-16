@@ -544,7 +544,32 @@ function main(newPath) {
   for (let r = 1; r <= maxRow; r += 1) {
     for (let c = 1; c <= maxCol; c += 1) {
       const cellId = getCellId(r, c);
-      cellInfos.push({ cellId });
+      cellInfos.push({ cellId, placable: true });
+    }
+  }
+
+  const startR = 4;
+  const startC = 6;
+  for (let r = 0; r < 10; r++) {
+    for (let c = 0; c < 2; c++) {
+      const row = startR + r;
+      const col = startC + c;
+      const cellId = getCellId(row, col);
+      const idx = cellInfos.findIndex((cell) => cell.cellId === cellId);
+      cellInfos[idx].placable = false;
+    }
+  }
+
+  const startR2 = 5;
+  const startC2 = 15;
+
+  for (let r = 0; r < 2; r++) {
+    for (let c = 0; c < 5; c++) {
+      const row = startR2 + r;
+      const col = startC2 + c;
+      const cellId = getCellId(row, col);
+      const idx = cellInfos.findIndex((cell) => cell.cellId === cellId);
+      cellInfos[idx].placable = false;
     }
   }
 
